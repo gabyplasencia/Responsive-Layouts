@@ -1,4 +1,5 @@
 @import url('https://fonts.googleapis.com/css2?family=Roboto:wght@300;700&display=swap');
+
 *{
     box-sizing: border-box;
     margin: 0;
@@ -6,5 +7,41 @@
 }
 
 .container{
+    margin: 0 auto;
     font-family: 'Roboto', sans-serif;
+    padding: 7rem 5rem;
+    background-color: #23424A;
+}
+
+.wrapper{
+    display: flex;
+    flex-direction: column;
+    gap: 1rem;
+    width: 60%;
+}
+
+.intro{
+    color: white;
+}
+
+.intro p{
+    font-weight: 300;
+    margin: 1.2rem 0;
+    opacity: 0.9;
+}
+
+.btn{
+    background-color: #38CFD9;
+    border: none;
+    border-radius: 20rem;
+    padding: 1rem 2.5rem;
+    margin-top: 1.5rem;
+
+}
+.btn a{
+    text-decoration: none;
+    color: #23424A;
+    text-transform: uppercase;
+    font-weight: 700;
+    font-size: 1rem;
 }
