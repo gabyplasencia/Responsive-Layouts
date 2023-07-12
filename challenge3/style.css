@@ -1,25 +1,32 @@
-@import url('https://fonts.googleapis.com/css2?family=Roboto:wght@300;700&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Roboto:wght@300;700;900&display=swap');
 
 *{
     box-sizing: border-box;
     margin: 0;
 }
 
+body{
+    font-family: 'Roboto', sans-serif;
+}
+
 .container{
     background-color: #23424A;
-    padding: 6rem 0;
+    padding: 4rem 0;
     color: white;
 }
 
 .wrapper{
-    margin: 0 auto;
-    font-family: 'Roboto', sans-serif;
+    margin: 5rem auto;
     width: 80%;
     max-width: 900px;;
 } 
 
 .intro{
     width: 60%;
+}
+
+.intro h1{
+    font-size: 2.8rem;
 }
 
 .intro p{
@@ -41,14 +48,44 @@
 .btn:hover{
     opacity: 0.7;
 }
+
 .btn:active{
     transform: scale(0.9);
     opacity: 0.5;
 }
+
 .btn a{
     text-decoration: none;
     color: #23424A;
     text-transform: uppercase;
     font-weight: 700;
     font-size: 1rem;
+}
+
+.row{
+    display: flex;
+}
+
+.col{
+    width: 100%;
+    text-align: center;
+}
+
+.col + .col {
+    margin-left: 2rem;
+}
+
+.col h2{
+    margin-bottom: 1.5rem;
+    font-weight: 900;
+}
+
+.sec-1 h2{
+    color: #87629A;
+}
+
+.sec-2{
+    background-color: #136C72;
+    padding: 1rem 0;
+    color: white;
 }
