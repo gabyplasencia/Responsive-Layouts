@@ -11,12 +11,12 @@ body{
 
 .container{
     background-color: #23424A;
-    padding: 4rem 0;
+    padding: 8rem 0;
     color: white;
 }
 
 .wrapper{
-    margin: 5rem auto;
+    margin: 0 auto;
     width: 80%;
     max-width: 900px;;
 } 
@@ -84,8 +84,12 @@ body{
     color: #87629A;
 }
 
+.sec-1{
+    padding: 4rem 0;
+}
+
 .sec-2{
     background-color: #136C72;
-    padding: 1rem 0;
+    padding: 4rem 0;
     color: white;
 }
