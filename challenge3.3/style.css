@@ -20,7 +20,7 @@ img{
 }
 
 .wrapper{
-    margin: 2rem auto;
+    margin: 0 auto;
     width: 80%;
     max-width: 1000px;
     justify-content: space-between;
@@ -29,20 +29,32 @@ img{
 .nav{
     background-color: #136C72;
     font-size: 0.8rem;
-    padding: 1rem 3rem;
+    padding: 1rem 0;
 }
 
 .nav__list{
     list-style: none;
-    width: 35%;
-    justify-content: space-around;
+    width: 50%;
+    justify-content: space-between;
     align-items: center;
+    padding: 0;
 }
 
 .nav__link{
     text-transform: uppercase;
     text-decoration: none;
+    
     color: white;
+    
+}
+
+.nav__item{
+    font-weight: 300;
+    transition: all 500ms;
+}
+
+.nav__item:hover{
+    font-weight: 700;
 }
 
 .intro{
@@ -55,10 +67,12 @@ img{
 
 .left-content{
     width: 60%;
+    margin-top: 2rem;
 }
 
 .right-content{
     width: 30%;
+    margin-top: 2rem;
 }
 
 .intro h1{
