@@ -154,6 +154,10 @@ h2{
 
 @media (max-width: 870px) {
 
+    .container{
+        padding: 4rem 0;
+    }
+
     .row{
         display: block;
     }
