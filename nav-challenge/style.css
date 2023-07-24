@@ -64,9 +64,44 @@ header {
 
 .nav {
     width: 100%;
+
 }
 
+.nav__list{
+    list-style: none;
+    align-items: center;
+    padding: 0;
+}
 
+.nav__list--secondary{
+    margin-top: 4rem;
+}
+
+.nav__link{
+    text-transform: uppercase;
+    text-decoration: none;
+    font-weight: 300;
+    color: white;
+    transition: all 500ms;
+}
+
+.nav__item{
+    font-weight: 300;
+}
+
+.nav__link--button{
+    background-color: white;
+    font-weight: 700;
+    color: #136C72;
+}
+
+.nav__item + .nav__item{
+    margin-top: 0.70rem;
+}
+
+.nav__link:hover{
+    font-weight: 700;
+}
 
 .nav-toggle {
     cursor: pointer;
@@ -78,7 +113,6 @@ header {
     background: #072A2D;
     color: white;
     transition: opacity 250ms ease;
-    
     position: absolute;
     left: 0;
 }
