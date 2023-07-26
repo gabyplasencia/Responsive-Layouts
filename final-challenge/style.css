@@ -1,9 +1,5 @@
 @import url('https://fonts.googleapis.com/css2?family=Montserrat:wght@300;400&family=Oswald:wght@400;500;600;700&display=swap');
 
-/* 
-font-family: 'Montserrat', sans-serif;
-font-family: 'Oswald', sans-serif;
- */
 *, *::after, *::before{
     box-sizing: border-box;
     margin: 0;
@@ -32,6 +28,24 @@ header{
     margin: 0 auto;
     max-width: 1200px;
 }
+
+.col{
+    text-align: center;
+}
+
+.col__title{
+    font-size: 1.3rem;
+}
+
+.col__text{
+    font-size: 1rem;
+}
+
+/*
+ -------
+ ESTILOS NAV 
+ ----------
+ */
 
 .nav__list{
     list-style: none;
@@ -111,6 +125,12 @@ header{
     position: relative;
 } 
 
+/*
+ -------
+ ESTILOS SECTION HERO 
+ ----------
+ */
+
 .hero{
     background-color: #3B4050;
     padding: 2rem 0;
@@ -145,6 +165,23 @@ header{
     color: #FFFFFF;
 }
 
+/* 
+ ------
+ ESTILOS SECTION-1
+ ------
+*/
+
+.section-1{
+    background-color: #e8e8ea;
+}
+
+.col__title--section-1{
+    color: #A59678;
+}
+
+.col__text--section-1{
+    color: rgba(0, 0, 0, 0.795);
+}
 @media (min-width: 1000px){
     .nav-toggle {
         display: none;
