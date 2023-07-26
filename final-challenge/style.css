@@ -20,6 +20,14 @@ h1, h2{
     font-weight: 700;
 }
 
+ul{
+    list-style: none;
+}
+
+a{
+    text-decoration: none;
+}
+
 header{
     background-color: #2E323F;
 }
@@ -49,11 +57,10 @@ header{
  */
 
 .nav__list{
-    list-style: none;
+    
 }
 
 .nav__link{
-    text-decoration: none;
     text-transform: uppercase;
     font-family: 'Oswald', sans-serif;
     font-weight: 500;
@@ -225,8 +232,46 @@ header{
     color: #ffffffc5;
 }
 
+/* 
+ ------
+ ESTILOS FOOTER-INFO
+ ------
+*/
 
+footer{
+    background-color: #3B4050;
+}
 
+.footer__title{
+    color: #FFFFFF;
+    font-size: 2.2rem;
+    text-align: center;
+    padding: 2rem 0;
+}
+
+.col--info{
+    text-align: left;
+}
+
+.col__title--info{
+    font-size: 1.1rem;
+    color: #A59678;
+    margin-bottom: 1rem;
+}
+
+.col__text--info{
+    font-size: 0.8rem;
+    color: #ffffff93;
+}
+
+.col__item{
+    padding: 0.5rem 0;
+}
+
+.col__link{
+    font-size: 0.8rem;
+    color: #ffffff93;
+}
 
 
 
