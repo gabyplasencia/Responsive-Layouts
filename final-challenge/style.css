@@ -111,6 +111,40 @@ header{
     position: relative;
 } 
 
+.hero{
+    background-color: #3B4050;
+    padding: 2rem 0;
+}
+
+.hero__title{
+    font-size: 4rem;
+    line-height: 4.1rem;
+    color: #FFFFFF;
+}
+
+.title--color{
+    color: #A59678;
+}
+
+.hero__text{
+    font-size: 1.1rem;
+    line-height: 1.5rem;
+    color:#ffffffc5;
+    margin-bottom: 1rem;
+}
+
+.hero__button{
+    font-family: 'Oswald', sans-serif;
+    font-size: 1.3rem;
+    font-weight: 700;
+    text-transform: uppercase;
+    border: none;
+    border-radius: 100px;
+    background-color: #A59678;
+    padding: 0.2em 1.5em;
+    color: #FFFFFF;
+}
+
 @media (min-width: 1000px){
     .nav-toggle {
         display: none;
