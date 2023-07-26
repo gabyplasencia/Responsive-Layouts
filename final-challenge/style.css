@@ -173,6 +173,7 @@ header{
 
 .section-1{
     background-color: #e8e8ea;
+    padding: 2rem 0;
 }
 
 .col__title--section-1{
@@ -181,6 +182,7 @@ header{
 
 .col__text--section-1{
     color: rgba(0, 0, 0, 0.795);
+    padding: 0.8rem 0;
 }
 @media (min-width: 1000px){
     .nav-toggle {
