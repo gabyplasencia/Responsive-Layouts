@@ -295,7 +295,7 @@ footer{
     margin-bottom: 1rem;
 }
 
-@media (min-width: 1000px){
+@media (min-width: 700px){
     .nav-toggle {
         display: none;
     }
@@ -305,4 +305,30 @@ footer{
         height: auto;
         position: relative;
     }
+
+    .sidebar{
+        display: flex;
+        flex-direction: row;
+        justify-content: space-between;
+        margin: 1rem 0;
+    }
+    
+    .col{
+        width: 32%;
+    }
+
+    .col--info{
+        width: 60%;
+        flex-grow: 1;
+    }
+
+    footer .flex--row{
+        display: flex;
+        flex-direction: row;
+    }
+    
+}
+
+@media (min-width: 1000px){
+    
 }
