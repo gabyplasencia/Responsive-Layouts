@@ -157,8 +157,12 @@ header{
     padding: 2rem 0;
 }
 
+.col + .col{
+    margin-top: 1em;
+}
+
 .hero__title{
-    font-size: 4rem;
+    font-size: 3.4rem;
     line-height: 4.1rem;
     color: #FFFFFF;
 }
@@ -171,7 +175,7 @@ header{
     font-size: 1.1rem;
     line-height: 1.5rem;
     color:#ffffffc5;
-    margin-bottom: 1rem;
+    margin: 1em 0;
 }
 
 .hero__button{
@@ -227,7 +231,11 @@ header{
 }
 
 .main-content__img{
-    padding: 2.5rem 0;
+    padding: 2rem 0;
+}
+
+.sidebar{
+    margin-top: 3em;
 }
 
 .col--sidebar{
@@ -253,6 +261,7 @@ header{
 
 footer{
     background-color: #3B4050;
+    padding-bottom: 2.5rem;
 }
 
 .footer__title{
@@ -262,12 +271,10 @@ footer{
     padding: 2rem 0;
 }
 
-
-
 .col__title--info{
     font-size: 1.1rem;
     color: #A59678;
-    margin-bottom: 1rem;
+    margin-bottom: 0.4rem;
 }
 
 .col__text--info{
@@ -276,7 +283,7 @@ footer{
 }
 
 .col__item{
-    padding: 0.5rem 0;
+    padding: 0.1rem 0;
 }
 
 .col__link{
@@ -284,7 +291,9 @@ footer{
     color: #ffffff93;
 }
 
-
+.info{
+    margin-bottom: 1rem;
+}
 
 @media (min-width: 1000px){
     .nav-toggle {
