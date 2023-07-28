@@ -30,12 +30,15 @@ a{
 
 header{
     background-color: #2E323F;
+    padding: 0.8em 0;
+    text-align: center;
 }
 
 .container{
     width: 85%;
     margin: 0 auto;
     max-width: 1200px;
+    position: relative;
 }
 
 .col{
@@ -55,11 +58,13 @@ header{
  ESTILOS NAV 
  ----------
  */
-
 .nav__list{
-    
+    margin: 1em 0;
 }
 
+.nav__item{
+    padding: 0.1em 0;
+}
 .nav__link{
     text-transform: uppercase;
     font-family: 'Oswald', sans-serif;
@@ -72,6 +77,14 @@ header{
     border-radius: 100px;
     padding: 0.2em 1em;
     background-color: #A59678;
+}
+
+.logo{
+    height: 3em;
+}
+
+.flex--row{
+    justify-content: space-between;
 }
 
 .nav-toggle {
@@ -249,9 +262,7 @@ footer{
     padding: 2rem 0;
 }
 
-.col--info{
-    text-align: left;
-}
+
 
 .col__title--info{
     font-size: 1.1rem;
