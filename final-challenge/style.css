@@ -292,6 +292,7 @@ footer{
 }
 
 @media (min-width: 700px){
+
     .container{
         width: 95%;
     }
@@ -343,7 +344,7 @@ footer{
     }
     
     .col__text{
-        font-size: 0.9rem;
+        font-size: 1rem;
     }
 
     .col--info{
@@ -356,6 +357,15 @@ footer{
 
     .col + .col{
         margin: 0;
+    }
+
+    .section-2 .flex--row{
+       flex-direction: column;
+    }
+
+    .col--sidebar{
+        margin: 0;
+        padding: 1rem 0.6rem;
     }
 }
 
