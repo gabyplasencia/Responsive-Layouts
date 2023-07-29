@@ -353,6 +353,10 @@ footer{
     .hero .flex--row{
         flex-direction: column;
     }
+
+    .col + .col{
+        margin: 0;
+    }
 }
 
 @media (min-width: 1000px){
