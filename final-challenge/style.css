@@ -80,11 +80,7 @@ header{
 }
 
 .logo{
-    height: 3em;
-}
-
-.flex--row{
-    justify-content: space-between;
+    height: 30px;
 }
 
 .nav-toggle {
@@ -296,14 +292,39 @@ footer{
 }
 
 @media (min-width: 700px){
+    .container{
+        width: 95%;
+    }
+
+    .flex--row{
+        display: flex;
+        flex-direction: row;
+        justify-content: space-between;
+    }
+
     .nav-toggle {
         display: none;
     }
 
     .nav {
         visibility: visible;
-        height: auto;
         position: relative;
+        display: flex;
+        text-align: center;
+        justify-content: flex-end;
+    }
+
+    .nav__list{
+        display: flex;
+        align-items: center;
+    }
+    
+    .nav__item{
+        margin-left: 0.5rem;
+    }
+
+    .nav__list--primary{
+        margin-right: 1rem;
     }
 
     .sidebar{
@@ -317,14 +338,16 @@ footer{
         width: 32%;
     }
 
-    .col--info{
-        width: 60%;
-        flex-grow: 1;
+    .col__title{
+        font-size: 1.2rem;
+    }
+    
+    .col__text{
+        font-size: 0.9rem;
     }
 
-    footer .flex--row{
-        display: flex;
-        flex-direction: row;
+    .col--info{
+        flex-grow: 1;
     }
     
 }
