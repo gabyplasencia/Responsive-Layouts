@@ -350,6 +350,9 @@ footer{
         flex-grow: 1;
     }
     
+    .hero .flex--row{
+        flex-direction: column;
+    }
 }
 
 @media (min-width: 1000px){
