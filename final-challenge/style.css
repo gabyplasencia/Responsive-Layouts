@@ -287,14 +287,14 @@ footer{
     color: #ffffff93;
 }
 
-.info{
-    margin-bottom: 1rem;
-}
-
 @media (min-width: 700px){
 
     .container{
-        width: 95%;
+        width: 90%;
+    }
+
+    .hero{
+        padding: 3rem 0;
     }
 
     .flex--row{
@@ -346,10 +346,6 @@ footer{
     .col__text{
         font-size: 1rem;
     }
-
-    .col--info{
-        flex-grow: 1;
-    }
     
     .hero .flex--row{
         flex-direction: column;
@@ -366,6 +362,15 @@ footer{
     .col--sidebar{
         margin: 0;
         padding: 1rem 0.6rem;
+    }
+
+    .col--info{
+        width: 17%;
+        text-align: left;
+    }
+
+    .col--big{
+        width: 35%;
     }
 }
 
