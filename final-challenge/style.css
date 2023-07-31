@@ -43,6 +43,7 @@ header{
 
 .col{
     text-align: center;
+    margin: 1rem 0;
 }
 
 .col__title{
@@ -153,10 +154,6 @@ header{
     padding: 2rem 0;
 }
 
-.col + .col{
-    margin-top: 1em;
-}
-
 .hero__title{
     font-size: 3.4rem;
     line-height: 4.1rem;
@@ -176,7 +173,7 @@ header{
 
 .hero__button{
     font-family: 'Oswald', sans-serif;
-    font-size: 1.3rem;
+    font-size: 1.4rem;
     font-weight: 700;
     text-transform: uppercase;
     border: none;
@@ -194,7 +191,7 @@ header{
 
 .section-1{
     background-color: #e8e8ea;
-    padding: 2rem 0;
+    padding: 1rem 0;
 }
 
 .col__title--section-1{
@@ -287,6 +284,12 @@ footer{
     color: #ffffff93;
 }
 
+/* 
+------ 
+  ESTILOS PARA TABLET
+------
+ */
+
 @media (min-width: 700px){
 
     .container{
@@ -351,10 +354,6 @@ footer{
         flex-direction: column;
     }
 
-    .col + .col{
-        margin: 0;
-    }
-
     .section-2 .flex--row{
        flex-direction: column;
     }
@@ -374,6 +373,86 @@ footer{
     }
 }
 
+/* --------
+   ESTILOS PARA DESKTOP
+   --------
+ */
+
 @media (min-width: 1000px){
+    .container{
+        width: 80%;
+        margin: 2rem auto;
+    }
+
+    .hero .container{
+        margin: 5rem auto;
+    }
+
+    header .container{
+        margin: 0 auto;
+    }
+
+    .hero .flex--row{
+        flex-direction: row;
+    }
+
+    .section-2 .flex--row{
+        flex-direction: row;
+    }
+
+    .hero__title{
+        font-size: 4.5rem;
+        line-height: 4.5rem;
+        width: 45%;
+    }
+
+    .hero__content{
+        width: 45%;
+        align-self: flex-end;
+    }
     
+    .col{
+        width: 25%;
+    }
+
+    .col__title{
+        font-size: 1.4rem;
+    }
+
+    .sidebar{
+        flex-direction: column;
+        justify-content: flex-start;
+        width: 30%;
+    }
+
+    .sidebar > .col{
+        width: 100%;
+    }
+
+    .col--sidebar{
+        padding: 2.5rem 1.5rem;
+        margin: 1rem 0;
+    }
+
+    .main-content{
+        width: 65%;
+    }
+
+    .footer__title{
+        font-size: 3rem;
+        padding: 3rem 0;
+    }
+
+    .col--info{
+        width: 15%;
+    }
+
+    .col--big{
+        width: 40%;
+    }
+
+    .col__item,
+    .col__text--info{
+        margin: 1rem 0;
+    }
 }
